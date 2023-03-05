@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        android:id="@+id/textlayout"
+        android:layout_width="wrap_content"
+        app:layout_widthPercent="50%"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lessonname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp" />
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+
+    <TextView
+        android:id="@+id/lessonmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/textlayout"
+        />
+</androidx.percentlayout.widget.PercentRelativeLayout>

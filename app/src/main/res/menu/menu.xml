@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/journal"
+        android:gravity="bottom|center"
+        android:icon="@drawable/ic_baseline_table_rows_24" />
+    <item
+        android:id="@+id/marks"
+        android:gravity="bottom|center"
+        android:icon="@drawable/ic_baseline_looks_5_24" />
+    <item
+        android:id="@+id/info"
+        android:gravity="bottom|center"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+
+</menu>
